@@ -22,6 +22,8 @@ body {
     clear: both;
 }
 
+.pointer {cursor: pointer;}
+
 /* Body */
 /* Header */
 header {
@@ -38,9 +40,9 @@ header h1 {
     margin: 30px 0;
 }
 
-.card-container .card {
-    width: calc((100% / 4) - 30px);
-    height: 220px;
+.card-container .row .card {
+    width: calc((100% / 4) - 20px);
+    height: 250px;
     background-image: url(../img/pattern.png);
     background-size: contain;
     border-radius: 10px;
@@ -48,23 +50,79 @@ header h1 {
     float: left;
     position: relative;
 }
+.card-container .card:nth-child(3n + 4) {
+    margin-right: 0;
+}
+
 
 #upcard {
     background-image: url(../img/air_balloon.png);
     background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center top ;
+    background-position: center;
     background-size: 80%;
+    
 }
 
 
-.text-card {
+.text-upcard {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 30px;
     font-size: 32px;
     color: #ec0681;
 }
+
+/* Hover */
+#bicycle:hover{
+    content: "";
+    background-image: url(../img/bicycle.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;  
+}
+
+
+#submarine:hover {
+    content: "";
+    background-image: url(../img/Submarine.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+#tram:hover {
+    content: "";
+    background-image: url(../img/Tram.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+#tractor:hover {
+    content: "";
+    background-image: url(../img/Tractor.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+
+#cruise-ship:hover {
+    content: "";
+    background-image: url(../img/Cruise_Ship.png);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
+
+
+
 
 
 
