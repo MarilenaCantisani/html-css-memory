@@ -75,7 +75,6 @@ header h1 {
 
 /* Hover */
 #bicycle:hover{
-    content: "";
     background-image: url(../img/bicycle.png);
     background-color: #fff;
     background-repeat: no-repeat;
@@ -123,6 +122,50 @@ header h1 {
 
 
 
+#bicycle:hover::after {
+    content: "Bicycle";
+    color:darkgreen;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 32px;
+}
+
+#submarine:hover::after {
+    content: "Submarine";
+    color: cornflowerblue;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 32px;
+}
+
+#tram:hover::after {
+    content: "Tram";
+    color:darkslategray;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 32px;
+}
+
+#tractor:hover::after {
+    content: "Tractor";
+    color: orange;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 32px;
+}
+
+#cruise-ship:hover::after {
+    content: "Cruise-ship";
+    color:orchid;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 32px;
+}
 
 
 
