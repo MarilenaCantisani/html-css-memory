@@ -46,13 +46,31 @@ header h1 {
     border-radius: 10px;
     margin-right: 20px;
     float: left;
+    position: relative;
 }
 
 #upcard {
     background-image: url(../img/air_balloon.png);
     background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top ;
     background-size: 80%;
 }
 
+
+.text-card {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-size: 32px;
+    color: #ec0681;
+}
+
+
+
+
+/* Footer */
+footer {
+    font-size: 22px;
+    text-align: center;
+}
