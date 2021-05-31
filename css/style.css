@@ -173,7 +173,7 @@ header h1 {
 
 .air-balloon:hover::after {
     content: "Air Balloon";
-    color:purple;
+    color: #ec0681;
     position: absolute;
     bottom: 10px;
     left: 30px;
