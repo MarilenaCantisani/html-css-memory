@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Nerko One', cursive;
+    background-color: #add8e6;
 }
 
 .clearfix::after {
@@ -22,3 +23,14 @@ body {
 }
 
 /* Body */
+/* Header */
+header {
+    margin: 20px 0;
+}
+header h1 {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+
+/* main */
