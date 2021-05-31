@@ -24,6 +24,13 @@ body {
 
 .pointer {cursor: pointer;}
 
+.card-container .row .card{
+    background-color: #fff;
+    background-position: center;
+    background-size: 80%;
+}
+
+
 /* Body */
 /* Header */
 header {
@@ -40,11 +47,11 @@ header h1 {
     margin: 30px 0;
 }
 
-.card-container .row .card {
+ .row .card {
     width: calc((100% / 4) - 20px);
     height: 250px;
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-repeat: repeat;
     border-radius: 10px;
     margin-right: 20px;
     float: left;
@@ -54,16 +61,11 @@ header h1 {
     margin-right: 0;
 }
 
-
+/* Up card */
 #upcard {
     background-image: url(../img/air_balloon.png);
-    background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    
 }
-
 
 .text-upcard {
     position: absolute;
@@ -73,59 +75,43 @@ header h1 {
     color: #ec0681;
 }
 
-/* Hover */
+
+/* Bg Hover */
 .first-row .bicycle:hover, .third-row .bicycle:hover {
     background-image: url(../img/bicycle.png);
-    background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;  
 }
 
 
 .first-row .submarine:hover, .third-row .submarine:hover{
     background-image: url(../img/Submarine.png);
-    background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
 }
 
 .first-row .air-balloon:hover {
     background-image: url(../img/air_balloon.png);
-    background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
 }
 
 .second-row .tram:hover, .first-row .tram:hover {
     background-image: url(../img/Tram.png);
-    background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
 }
 
 .third-row .tractor:hover, .second-row .tractor:hover {
     background-image: url(../img/Tractor.png);
-    background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
 }
 
 
 .third-row .cruise-ship:hover, .second-row .cruise-ship:hover {
     background-image: url(../img/Cruise_Ship.png);
-    background-color: #fff;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
 }
 
 
 
+/* Text hover */
 .bicycle:hover::after {
     content: "Bicycle";
     color:darkgreen;
